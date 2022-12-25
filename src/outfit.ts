@@ -91,7 +91,6 @@ export function chooseQuestOutfit(
     weapons,
     offhands,
     backs,
-    { familiar },
     famEquip,
     ifHave(
       "pants",
