@@ -42,7 +42,7 @@ function mergeSpecs(...outfits: OutfitSpec[]): OutfitSpec {
 
 const chooseFamiliar = (options: MenuOptions = {}): Familiar =>
   canInteract() && sober()
-    ? $familiars`Temporal Riftlet, Reagnimated Gnome`.find((f) => have(f)) ??
+    ? $familiars`Temporal Riftlet, Reagnimated Gnome, Animated Nutcracker`.find((f) => have(f)) ??
       freeFightFamiliar(options)
     : freeFightFamiliar(options);
 
